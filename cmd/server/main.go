@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println("🤓")
+	fmt.Println("This is the emoji 🤓 that should be printed")
 }
