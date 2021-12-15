@@ -1,5 +1,8 @@
 .PHONY: cover start test test-integration
 
+build:
+	docker build -t canvas .
+
 cover:
 	go tool cover -html=cover.out
 
